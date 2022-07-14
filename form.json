@@ -24,7 +24,7 @@
             ],
           "attributes": {
             "required": true,
-            "mask": "123.456.789-00", //Passar a Mascara como parâmetro (REGEX)
+            "mask": "123.456.789-00", 
             "validation": false
           },
           "answer": {
