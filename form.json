@@ -26,9 +26,6 @@
             "required": true,
             "mask": "123.456.789-00", 
             "validation": false
-          },
-          "answer": {
-            "value": ""
           }
         }  
   ]
