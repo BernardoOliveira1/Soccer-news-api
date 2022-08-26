@@ -14,7 +14,7 @@
                "answer_titles":[
                   {
                      "uid_element":1,
-                     "question_id":2,
+                     "question_id":1,
                      "name":"Sim"
                   },
                   {
@@ -26,6 +26,34 @@
                "attributes":{
                   "required":true,
                   "mask":"123.456.789-00",
+                  "validation":false
+               }
+            },
+            {
+               "uid":2,
+               "type":"QuestionCheckboxList",
+               "question":"Qual seu Streaming favorito?",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":2,
+                     "question_id":1,
+                     "name":"Netlix"
+                  },
+                  {
+                     "uid_element":2,
+                     "question_id":2,
+                     "name":"Youtube"
+                   },
+                   {
+                     "uid_element":2,
+                     "question_id":3,
+                     "name":"Rumble"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
                   "validation":false
                }
             }
