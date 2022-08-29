@@ -14,6 +14,143 @@
                "answer_titles":[
                   {
                      "uid_element":1,
+                     "question_id":1,
+                     "name":"Sim"
+                  },
+                  {
+                     "uid_element":1,
+                     "question_id":1,
+                     "name":"Não"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"123.456.789-00",
+                  "validation":false
+               }
+            },
+            {
+               "uid":2,
+               "type":"QuestionCheckboxList",
+               "question":"Qual o seu Streaming favorito?",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":2,
+                     "question_id":2,
+                     "name":"Netflix"
+                  },
+                  {
+                     "uid_element":2,
+                     "question_id":2,
+                     "name":"HBO"
+                   },
+                   {
+                     "uid_element":2,
+                     "question_id":2,
+                     "name":"Disney+"
+                   },
+                   {
+                     "uid_element":2,
+                     "question_id":2,
+                     "name":"Youtube"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":3,
+               "type":"TwoOptionRadioList",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":3,
+                     "question_id":3,
+                     "name":"Sim"
+                  },
+                  {
+                     "uid_element":3,
+                     "question_id":3,
+                     "name":"Não"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            }
+         ]
+      },
+      {
+         "uid":2,
+         "name":"Questionário 2",
+         "elements":[
+            {
+               "uid":1,
+               "type":"TwoOptionRadioList",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":1,
+                     "question_id":1,
+                     "name":"Sim"
+                  },
+                  {
+                     "uid_element":1,
+                     "question_id":1,
+                     "name":"Não"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            }
+         ]
+      } ,
+      {
+         "uid":3,
+         "name":"Questionário 3",
+         "elements":[
+            {
+               "uid":1,
+               "type":"TextField",
+               "question":"Nome",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":1,
+                     "question_id":1,
+                     "name":"Sim"
+                  },
+                  {
+                     "uid_element":1,
+                     "question_id":1,
+                     "name":"Não"
+                   }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"123.456.789-00",
+                  "validation":false
+               }
+            },
+            {
+               "uid":1,
+               "type":"TwoOptionRadioList",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":1,
+               "answer_titles":[
+                  {
+                     "uid_element":1,
                      "question_id":2,
                      "name":"Sim"
                   },
@@ -25,7 +162,7 @@
                 ],
                "attributes":{
                   "required":true,
-                  "mask":"123.456.789-00",
+                  "mask":"",
                   "validation":false
                }
             }
