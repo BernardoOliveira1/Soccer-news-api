@@ -9,7 +9,7 @@
             {
                "uid":1,
                "type":"TextField",
-               "question":"Nome",
+               "question":"Name",
                "survey_id":1,
                "answer_titles":[
                   {
