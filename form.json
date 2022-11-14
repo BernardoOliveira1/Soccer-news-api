@@ -84,6 +84,136 @@
                   "mask":"",
                   "validation":false
                }
+            },
+            {
+               "uid":41,
+               "type":"ImageCard",
+               "question":"Tire uma foto do seu último livro de cabeceira",
+               "survey_id":11,
+               "answer_titles":[
+                  
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":51,
+               "type":"SingleRadioList",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                  {
+                     "uid_element":51,
+                     "question_id":51,
+                     "name":"Sim"
+                  }
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":61,
+               "type":"ShowTimePicker",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                  
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":71,
+               "type":"CustomDatePicker",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                 
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":81,
+               "type":"QrCodeScanner",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+               
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":91,
+               "type":"ImageCapture",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                 
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":101,
+               "type":"AudioButton",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                 
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":111,
+               "type":"SignatureButton",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                  
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
+            },
+            {
+               "uid":121,
+               "type":"GeoLocationButton",
+               "question":"Gosta de Abacaxi?",
+               "survey_id":11,
+               "answer_titles":[
+                 
+                ],
+               "attributes":{
+                  "required":true,
+                  "mask":"",
+                  "validation":false
+               }
             }
          ]
       },
